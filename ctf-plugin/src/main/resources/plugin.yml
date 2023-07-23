@@ -1,0 +1,6 @@
+name: ctfclassic
+version: '${project.version}'
+main: dev.sadghost.ctfclassic.CTFPlugin
+api-version: 1.20
+authors: [SadGhost]
+description: The 24h CTF plugin
