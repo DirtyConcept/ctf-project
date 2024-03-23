@@ -7,9 +7,9 @@ plugins {
 }
 
 dependencies {
-    implementation("io.micronaut:micronaut-inject-java:4.0.1")
+    implementation("io.micronaut:micronaut-inject-java:4.3.12")
     implementation(project(":ctf-api"))
-    annotationProcessor("io.micronaut:micronaut-inject-java:4.0.1")
+    annotationProcessor("io.micronaut:micronaut-inject-java:4.3.12")
 
     paperweight.paperDevBundle("1.20.1-R0.1-SNAPSHOT")
 }
